@@ -30,14 +30,14 @@ function App() {
 					Rewinder
 				</h1>
 				<p className="site-info">
-					Rewinder shows time going in reverse from <span>{ startDate.toLocaleDateString(undefined, { dateStyle: "long" }) }, { startDate.toLocaleTimeString(undefined, { timeStyle: "short" }) }</span>
+					Rewinder shows time going in reverse from <span className="date-time">{ startDate.toLocaleDateString(undefined, { dateStyle: "long" }) }, { startDate.toLocaleTimeString(undefined, { timeStyle: "short" }) }</span>
 				</p>
 			</header>
 
 			<main>
 				<p className="displayed-date">
-					<span>{ displayedDate.toLocaleDateString() }, </span>
-					<span>{ displayedDate.toLocaleTimeString() }</span>
+					<span className="date-time">{ displayedDate.toLocaleDateString() }, </span>
+					<span className="date-time">{ displayedDate.toLocaleTimeString() }</span>
 				</p>
 			</main>
 		</>

@@ -1,0 +1,7 @@
+@use "./colors" as *;
+
+.date-time {
+    font-family: "Roboto Mono", monospace, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: $color-primary;
+}
