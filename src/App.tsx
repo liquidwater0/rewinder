@@ -36,7 +36,8 @@ function App() {
 
 			<main>
 				<p className="displayed-date">
-					{ displayedDate.toLocaleString() }
+					<span>{ displayedDate.toLocaleDateString() }, </span>
+					<span>{ displayedDate.toLocaleTimeString() }</span>
 				</p>
 			</main>
 		</>

@@ -54,6 +54,7 @@ main {
 }
 
 .displayed-date {
+    align-items: center;
     font-size: 3.5rem;
     font-weight: bold;
     color: var(--color-primary);
@@ -68,7 +69,15 @@ main {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
+    .displayed-date {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 475px) {
     .displayed-date {
         font-size: 2.5rem;
     }
