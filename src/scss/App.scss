@@ -55,7 +55,7 @@ main {
 
 .displayed-date {
     align-items: center;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-weight: bold;
     color: var(--color-primary);
 }
@@ -79,6 +79,6 @@ main {
 
 @media (max-width: 475px) {
     .displayed-date {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 }
