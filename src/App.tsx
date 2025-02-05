@@ -30,7 +30,7 @@ function App() {
 					Rewinder
 				</h1>
 				<p className="site-info">
-					Rewinder shows time going in reverse from <span>February 4th, 2025 12am CST</span>
+					Rewinder shows time going in reverse from <span>{ startDate.toLocaleDateString(undefined, { dateStyle: "long" }) }, { startDate.toLocaleTimeString(undefined, { timeStyle: "short" }) }</span>
 				</p>
 			</header>
 
